@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "start": "sed -i 's/\r$//' *.sh && chmod +x *.sh && bash startx.sh >/dev/null 2>&1 & python3 -m http.server 3000"
+  }
+}
